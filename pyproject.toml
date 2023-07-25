@@ -1,0 +1,26 @@
+[project]
+name = "sqlite-utils-litecli"
+version = "0.1"
+description = "Interactive shell using litecli"
+readme = "README.md"
+authors = [{name = "Simon Willison"}]
+license = {text = "Apache-2.0"}
+classifiers = [
+    "License :: OSI Approved :: Apache Software License"
+]
+dependencies = [
+    "sqlite-utils",
+    "litecli"
+]
+
+[project.urls]
+Homepage = "https://github.com/simonw/sqlite-utils-litecli"
+Changelog = "https://github.com/simonw/sqlite-utils-litecli/releases"
+Issues = "https://github.com/simonw/sqlite-utils-litecli/issues"
+CI = "https://github.com/simonw/sqlite-utils-litecli/actions"
+
+[project.entry-points.sqlite_utils]
+litecli = "sqlite_utils_litecli"
+
+[project.optional-dependencies]
+test = ["pytest"]
