@@ -1,6 +1,6 @@
 [project]
 name = "sqlite-utils-litecli"
-version = "0.1"
+version = "0.1.1"
 description = "Interactive shell using litecli"
 readme = "README.md"
 authors = [{name = "Simon Willison"}]
