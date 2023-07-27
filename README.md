@@ -24,7 +24,7 @@ This will start a `litecli` interactive shell session.
 
 Custom SQL functions provided by other plugins will be available in the shell.
 
-<img src="https://raw.githubusercontent.com/simonw/sqlite-utils-litecli/main/screenshot.jpg" width="483" height="474" alt="Screenshot showing the plugin in action - it includes autocomplete of SQLite table names">
+<img src="https://raw.githubusercontent.com/simonw/sqlite-utils-litecli/main/screenshot.jpg" width="483" alt="Screenshot showing the plugin in action - it includes autocomplete of SQLite table names">
 
 ## Development
 
